@@ -11,3 +11,5 @@ def countdown(time_sec):
         print("stop")
 
     countdown(10)
+
+    https://www.programiz.com/python-programming/examples/countdown-timer 
