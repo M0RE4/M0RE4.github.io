@@ -10,4 +10,4 @@ def countdown(time_sec):
 
         print("stop")
 
-    countdown(10)
+    countdown(5)
