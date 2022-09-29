@@ -1,2 +1,4 @@
-for number in range(10,0,-1):
-    print(number)
+count = 1
+while count <= 100:
+    print(count)
+    count += 1
