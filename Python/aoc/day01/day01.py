@@ -21,14 +21,14 @@ def load_data(fileName):
 
 if __name__ == "__main__":
   input_file_name = "dummy-input.txt"
-
+  # TODO: Uncomment line below to use real input
   input_file_name = "dummy-input.txt" 
   
   print(f"Loading data from: {input_file_name}")
   lines = load_data(input_file_name)
   
   # converts lines to numbers (depends on the task)
-  numbers = [int(l) for l in lines]
+  numbers = [int(i) for i in lines]
 
   resultA = solutionA(numbers)
   print(f"Solution for part A: {resultA}")
