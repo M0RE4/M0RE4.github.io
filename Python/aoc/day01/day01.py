@@ -28,7 +28,7 @@ if __name__ == "__main__":
   lines = load_data(input_file_name)
   
   # converts lines to numbers (depends on the task)
-  numbers = [int(i) for i in lines]
+  numbers = [int(l) for l in lines]
 
   resultA = solutionA(numbers)
   print(f"Solution for part A: {resultA}")
