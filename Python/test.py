@@ -1,39 +1,13 @@
-# Import the necessary modules
-import time
-import os
+# Find the next even number
 
-# Define the cat animation frames
-cat_frames = [
-    r"""
-    /\_/\ 
-   ( o.o )
-    > ^ <
-    """,
-    r"""
-    /\_/\ 
-   ( o.O )
-    > ^ <
-    """,
-    r"""
-    /\_/\ 
-   ( O.o )
-    > ^ <
-    """,
-    r"""
-    /\_/\ 
-   ( O.O )
-    > ^ <
-    """
-]
+def find_next_even(num):
+  # If the number is even, add 2 to get the next even number
+  if num % 2 == 0:
+    return num + 2
+  # If the number is odd, add 1 to get the next even number
+  else:
+    return num + 1
 
-# Loop through the cat animation frames
-while True:
-    for frame in cat_frames:
-        # Clear the screen
-        os.system("cls" if os.name == "nt" else "clear")
-
-        # Display the current frame
-        print(frame)
-
-        # Sleep for a short time
-        time.sleep(0.5)
+# Test the function
+print(find_next_even(5))  # should print 6
+print(find_next_even(12))  # should print 14
