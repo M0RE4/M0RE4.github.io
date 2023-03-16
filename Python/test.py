@@ -1,5 +1,0 @@
-print("   __")
-print(" // \\\\")
-print("| 0 0 |")
-print(" \\ __ /")
-print("   ||")
